@@ -18,7 +18,7 @@ development:
   database: money_is_something_development
   pool: 5
   username: money_is_something
-  password:
+  password: bloodculture
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -46,10 +46,10 @@ test:
   username: money_is_something
   password:
 
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: money_is_something_production
-  pool: 5
-  username: money_is_something
-  password:
+# production:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: money_is_something_production
+#   pool: 5
+#   username: money_is_something
+#   password: bloodculture
